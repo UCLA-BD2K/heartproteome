@@ -1,0 +1,125 @@
+
+/* Blue Top Bar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top-bar{
+  background-color: #0085ca;
+  height: 10px;
+}
+
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800; 
+}
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero-heading{
+font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+#heart_image{
+    margin-top: -6%;
+    max-width: 100%;
+    height: auto;
+}
+#imgheart{
+max-width: 100%;
+    height: auto;
+    }
+
+#heart_title{
+  overflow: hidden;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-image: url('../images/values-bg.png');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #00c0ff;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url('../images/values-bg.png');
+  background-size: cover;
+  color: #fff;
+  padding-top: 5rem;
+}
+#blank{
+  visibility: hidden;
+}
+#pubmed{
+  margin-top: 20%;
+}
+body{
+  color: #7c7c7c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero{
+  text-align: center;
+}
+/*550, 750, 1000
+*/
+@media (min-width: 550px){
+  .hero-heading{
+  text-align: left;
+}
+h2{
+  text-align: left;
+}
+}
+@media (min-width: 750px){
+  .hero{
+  text-align: left;
+}
+}
